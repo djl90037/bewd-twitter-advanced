@@ -13,6 +13,7 @@ gem 'sass-rails', '~> 6.0'
 gem 'uglifier', '~> 4.2.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
+gem 'aws-sdk', '~> 3.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails', '~> 4.4'
@@ -26,6 +27,9 @@ gem 'jbuilder', '~> 2.11'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1'
+
+#ActiveStorage
+gem 'image_processing', ">= 1.2"
 
 # AWS S3
 gem 'aws-sdk-s3', '~> 1.114'
